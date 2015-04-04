@@ -1,5 +1,7 @@
-
-
+/**
+ *	My personal Utility Library for practicing and testing purposes.
+ * 
+ */
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
