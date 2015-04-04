@@ -116,6 +116,29 @@ namespace Util {
 	}
 
 
+	void box_string(string str)
+	{
+		int n = str.length();
+		
+		if (n == 0)
+		{
+			cout << "Goodbye!" << endl;
+			return;
+		}
+		for (int i = 0; i < n + 2; i++)
+		{
+			cout << "-";
+		}
+		cout << endl;
+		cout << "!" << str << "!" << endl;
+		for (int i = 0; i < n + 2; ++i)
+		{
+			cout << "-";
+		}
+		cout << endl;
+	}
+
+
 } // Util
 
 namespace Sort {
@@ -241,6 +264,20 @@ namespace typedefs {
 
 } // typdefs
 
+
+namespace Search {
+
+	void binarySearch(int key)
+	{
+		
+	}
+
+
+
+} // Search
+
+
+		
 
 
 
